@@ -1,278 +1,370 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fahmid Hasan</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./assets/Fahmid Web devlopment logo.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/Fahmid Web devlopment logo.png"
+      type="image/x-icon"
+    />
     <!-- Email JS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-        (function () {
-            emailjs.init({
-                publicKey: "lleededekdekd",
-            });
-        })();
+      (function () {
+        emailjs.init({
+          publicKey: "lleededekdekd",
+        });
+      })();
     </script>
+  </head>
 
-
-</head>
-
-<body class="inter">
-    <header class="bg-white py-2 shadow-lg ">
-        <!-- ! Navbar Start -->
-        <nav>
-            <div class="navbar  container mx-auto">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-
-                            <!-- ! MObile -->
-                            <li><a>Home</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>About US</a></li>
-                            <li><a>Contact US</a></li>
-
-                        </ul>
-                    </div>
-                    <a href=""><img class="w-32" src="./assets/Fahmid Web devlopment logo.png" alt=""></a>
-                </div>
-                <div class="navbar-end hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-
-                        <!-- ! Desktop -->
-                        <li><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>About US</a></li>
-                        <li><a>Contact US</a></li>
-
-                    </ul>
-                </div>
-
+  <body class="inter">
+    <header class="bg-white py-2 shadow-lg">
+      <!-- ! Navbar Start -->
+      <nav>
+        <div class="navbar container mx-auto">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <!-- ! MObile -->
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>About US</a></li>
+                <li><a>Contact US</a></li>
+              </ul>
             </div>
-
-        </nav>
-        <!-- !Navbar End -->
+            <a href=""
+              ><img
+                class="w-32"
+                src="./assets/Fahmid Web devlopment logo.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <!-- ! Desktop -->
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>About US</a></li>
+              <li><a>Contact US</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- !Navbar End -->
     </header>
 
-
     <main>
-        <!-- ! Hero -->
-        <section>
-            <div
-                class="grid md:grid-cols-2 justify-center items-center container py-16 gap-16 md:gap-4 w-11/12 mx-auto">
-                <div class="space-y-5">
-                    <h1 class="text-5xl font-bold text-[#3b5fac]">Welcome To <br>
-                        <h1 class="text-4xl font-bold text-[#3b5fac]"> <span>
-                                << /span>Fahmid <span>></span> Tech Solution</h1>
-                    </h1>
-                    <p class="">We provide comprehensive web development solutions, including SEO optimization, digital
-                        marketing, and custom website
-                        design. Let us build the perfect online presence for your business.</p>
-                    <div class="space-x-4 ">
-                        <a class="border py-3 px-7 rounded-full bg-orange-500 text-white" href="">Project</a>
-                        <a class="border py-3 px-7 rounded-full hover:bg-orange-500 hover:text-white"
-                            href="">Contact</a>
-                    </div>
-                </div>
-                <div>
-                    <img src="./assets/Hero-img.png" alt="">
-
-                </div>
+      <!-- ! Hero -->
+      <section>
+        <div
+          class="grid md:grid-cols-2 justify-center items-center container py-16 gap-16 md:gap-4 w-11/12 mx-auto"
+        >
+          <div class="space-y-5">
+            <h1 class="text-5xl font-bold text-[#3b5fac]">
+              Welcome To <br />
+              <h1 class="text-4xl font-bold text-[#3b5fac]">
+                Fahmid Tech Solution
+              </h1>
+            </h1>
+            <p class="">
+              We provide comprehensive web development solutions, including SEO
+              optimization, digital marketing, and custom website design. Let us
+              build the perfect online presence for your business.
+            </p>
+            <div class="space-x-4">
+              <a
+                class="border py-3 px-7 rounded-full bg-orange-500 text-white"
+                href=""
+                >Project</a
+              >
+              <a
+                class="border py-3 px-7 rounded-full hover:bg-orange-500 hover:text-white"
+                href=""
+                >Contact</a
+              >
             </div>
-        </section>
-
-        <!-- ! Services -->
-
-        <section id="services" class="py-16 px-4 how-we-works">
-            <div class="md:mt-4 md:mb-4 lg:w-8/12 mx-auto">
-                <div
-                    class="mt-4 md:mt-16 flex flex-col items-center justify-center md:w-7/12 mx-auto text-center gap-4">
-                    <h3 class="text-3xl md:text-4xl lg:text-6xl font-bold">
-                        Services
-                    </h3>
-                    <p>
-                    </p>
-                </div>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto">
-                <!-- ! Web Devlopment -->
-                <!-- Card 1 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg ">
-                    <img class="w-12" src="./assets/web-development.png" alt="">
-                    <h1 class="font-semibold text-2xl">Website Development</h1>
-                    <p>Front-end development focuses on building the user interface of websites and web applications
-                        using HTML, CSS, and JavaScript. It involves creating responsive, visually appealing designs,
-                        ensuring cross-browser compatibility, optimizing performance, and enhancing user experience
-                        across devices.</p>
-                </div>
-                <!-- Card 2 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-12" src="./assets/Custom Web Applications.png" alt="">
-                    <h1 class="font-semibold text-2xl">Custom Web Applications</h1>
-                    <p>Custom web applications are tailored software solutions designed to meet specific business needs.
-                        They offer unique
-                        functionality, such as custom dashboards, management systems, or specialized tools. Built with
-                        modern frameworks, they
-                        provide flexibility, scalability, and seamless integration with existing systems or third-party
-                        services.</p>
-                </div>
-                <!-- Card 3 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-10" src="./assets/wordpress.png" alt="">
-                    <h1 class="font-semibold text-2xl">WordPress Development</h1>
-                    <p>WordPress development involves creating and customizing websites using the WordPress platform.
-                        This includes designing
-                        themes, building custom plugins, optimizing for SEO, and ensuring responsive design. WordPress
-                        is ideal for blogs,
-                        e-commerce sites, and business websites due to its user-friendly interface and flexibility.</p>
-                </div>
-                <!-- Card 4 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-12" src="./assets/ui-ux-design.png" alt="">
-                    <h1 class="font-semibold text-2xl">UI/UX Design</h1>
-                    <p>Designing visually appealing and user-friendly interfaces with tools like Figma, Photoshop, and
-                        Illustrator.</p>
-                </div>
-                <!-- Card 5 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-10" src="./assets/api-integration.png" alt="">
-                    <h1 class="font-semibold text-2xl">API Integration & Development</h1>
-                    <p>Creating or integrating APIs to connect applications, systems, or third-party services (e.g.,
-                        payment processors, social
-                        media).</p>
-                </div>
-                <!-- Card 6 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-10" src="./assets/performance.png" alt="">
-                    <h1 class="font-semibold text-2xl">Performance Optimization</h1>
-                    <p>Speeding up website loading times and improving overall website performance through coding best
-                        practices and tools like
-                        Lighthouse.</p>
-                </div>
-                <!-- Card 7 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-10" src="./assets/security-update.png" alt="">
-                    <h1 class="font-semibold text-2xl">Security Enhancement</h1>
-                    <p>Implementing security protocols, SSL certificates, and safeguarding websites from vulnerabilities
-                        and cyberattacks.</p>
-                </div>
-                <!-- Card 8 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-10" src="./assets/web-maintenance.png" alt="">
-                    <h1 class="font-semibold text-2xl">Website Maintenance & Support</h1>
-                    <p>Regular updates, bug fixes, performance optimization, and security checks.</p>
-                </div>
-                <!-- Card 9 -->
-                <div class="p-6 shadow-lg space-y-4 rounded-lg">
-                    <img class="w-12" src="./assets/seo-optimization.png" alt="">
-                    <h1 class="font-semibold text-2xl">SEO Optimization</h1>
-                    <p>Enhancing websites to improve their ranking on search engines through on-page and off-page SEO
-                        techniques.</p>
-                </div>
-
-
-            </div>
-        </section>
-
-        <!-- ! Contact US -->
-     
-    <section id="contact" class="hero py-24 px-4">
-        <div class="md:mt-4 md:mb-4 lg:w-8/12 mx-auto">
-            <div class="mt-4 md:mt-16 flex flex-col items-center justify-center md:w-7/12 mx-auto text-center gap-4">
-                <h3 class="text-3xl md:text-4xl lg:text-6xl font-bold">
-                    Get in Touch
-                </h3>
-                <p>
-                    For any inquiries, please fill out the form below and a member of our team will get
-                    back to you shortly.
-                </p>
-            </div>
-            <form id="contact-form"
-                class="mt-20 grid items-center justify-center grid-cols-1 md:grid-cols-2 gap-4 mb-32">
-                <input name="first_name" class="px-12 py-3 rounded-full" type="text" placeholder="First Name*" />
-                <input name="last_name" class="px-12 py-3 rounded-full" type="text" placeholder="Last Name*" />
-                <input name="phone" class="px-12 py-3 rounded-full" type="text" placeholder="Phone Number*" />
-                <input name="email" class="px-12 py-3 rounded-full" type="text" placeholder="Email*" />
-                <textarea name="message" class="md:col-span-2 px-12 py-3 rounded-2xl h-64 resize-none"
-                    placeholder="Write your message here"></textarea>
-                <p class=" md:col-span-2  text-red-500 font-bold w-full text-center mx-auto my-1 " id="statusFail"> </p>
-                <p class=" md:col-span-2  text-green-500 font-bold w-full text-center mx-auto my-1 " id="statusSuccess">
-                </p>
-
-                <button type="submit"
-                    class="bg-gradient-to-l from-cyan-100 to-blue-400  px-5 py-2 border border-slate-300 rounded-full font-semibold md:col-span-2">
-                    Send Mail
-                    <i class="ml-4 -rotate-45  p-2 rounded-full text-black fa-solid fa-arrow-right"></i>
-                </button>
-            </form>
+          </div>
+          <div>
+            <img src="./assets/Hero-img.png" alt="" />
+          </div>
         </div>
-    </section>
+      </section>
 
+      <!-- ! Services -->
 
+      <section id="services" class="py-16 px-4 how-we-works">
+        <div class="md:mt-4 md:mb-4 lg:w-8/12 mx-auto">
+          <div
+            class="mt-4 md:mt-16 flex flex-col items-center justify-center md:w-7/12 mx-auto text-center gap-4"
+          >
+            <h3 class="text-3xl md:text-4xl lg:text-6xl font-bold">Services</h3>
+            <p></p>
+          </div>
+        </div>
 
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto">
+          <!-- ! Web Devlopment -->
+          <!-- Card 1 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-12" src="./assets/web-development.png" alt="" />
+            <h1 class="font-semibold text-2xl">Website Development</h1>
+            <p>
+              Front-end development focuses on building the user interface of
+              websites and web applications using HTML, CSS, and JavaScript. It
+              involves creating responsive, visually appealing designs, ensuring
+              cross-browser compatibility, optimizing performance, and enhancing
+              user experience across devices.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img
+              class="w-12"
+              src="./assets/Custom Web Applications.png"
+              alt=""
+            />
+            <h1 class="font-semibold text-2xl">Custom Web Applications</h1>
+            <p>
+              Custom web applications are tailored software solutions designed
+              to meet specific business needs. They offer unique functionality,
+              such as custom dashboards, management systems, or specialized
+              tools. Built with modern frameworks, they provide flexibility,
+              scalability, and seamless integration with existing systems or
+              third-party services.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-10" src="./assets/wordpress.png" alt="" />
+            <h1 class="font-semibold text-2xl">WordPress Development</h1>
+            <p>
+              WordPress development involves creating and customizing websites
+              using the WordPress platform. This includes designing themes,
+              building custom plugins, optimizing for SEO, and ensuring
+              responsive design. WordPress is ideal for blogs, e-commerce sites,
+              and business websites due to its user-friendly interface and
+              flexibility.
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-12" src="./assets/ui-ux-design.png" alt="" />
+            <h1 class="font-semibold text-2xl">UI/UX Design</h1>
+            <p>
+              Designing visually appealing and user-friendly interfaces with
+              tools like Figma, Photoshop, and Illustrator.
+            </p>
+          </div>
+          <!-- Card 5 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-10" src="./assets/api-integration.png" alt="" />
+            <h1 class="font-semibold text-2xl">
+              API Integration & Development
+            </h1>
+            <p>
+              Creating or integrating APIs to connect applications, systems, or
+              third-party services (e.g., payment processors, social media).
+            </p>
+          </div>
+          <!-- Card 6 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-10" src="./assets/performance.png" alt="" />
+            <h1 class="font-semibold text-2xl">Performance Optimization</h1>
+            <p>
+              Speeding up website loading times and improving overall website
+              performance through coding best practices and tools like
+              Lighthouse.
+            </p>
+          </div>
+          <!-- Card 7 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-10" src="./assets/security-update.png" alt="" />
+            <h1 class="font-semibold text-2xl">Security Enhancement</h1>
+            <p>
+              Implementing security protocols, SSL certificates, and
+              safeguarding websites from vulnerabilities and cyberattacks.
+            </p>
+          </div>
+          <!-- Card 8 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-10" src="./assets/web-maintenance.png" alt="" />
+            <h1 class="font-semibold text-2xl">
+              Website Maintenance & Support
+            </h1>
+            <p>
+              Regular updates, bug fixes, performance optimization, and security
+              checks.
+            </p>
+          </div>
+          <!-- Card 9 -->
+          <div class="p-6 shadow-lg space-y-4 rounded-lg">
+            <img class="w-12" src="./assets/seo-optimization.png" alt="" />
+            <h1 class="font-semibold text-2xl">SEO Optimization</h1>
+            <p>
+              Enhancing websites to improve their ranking on search engines
+              through on-page and off-page SEO techniques.
+            </p>
+          </div>
+        </div>
+      </section>
 
+      <!-- ! Contact US -->
 
+      <section id="contact" class="hero py-24 px-4">
+        <div class="md:mt-4 md:mb-4 lg:w-8/12 mx-auto">
+          <div
+            class="mt-4 md:mt-16 flex flex-col items-center justify-center md:w-7/12 mx-auto text-center gap-4"
+          >
+            <h3 class="text-3xl md:text-4xl lg:text-6xl font-bold">
+              Get in Touch
+            </h3>
+            <p>
+              For any inquiries, please fill out the form below and a member of
+              our team will get back to you shortly.
+            </p>
+          </div>
+          <form
+            id="contact-form"
+            class="mt-20 grid items-center justify-center grid-cols-1 md:grid-cols-2 gap-4 mb-32"
+          >
+            <input
+              name="first_name"
+              class="px-12 py-3 rounded-full"
+              type="text"
+              placeholder="First Name*"
+            />
+            <input
+              name="last_name"
+              class="px-12 py-3 rounded-full"
+              type="text"
+              placeholder="Last Name*"
+            />
+            <input
+              name="phone"
+              class="px-12 py-3 rounded-full"
+              type="text"
+              placeholder="Phone Number*"
+            />
+            <input
+              name="email"
+              class="px-12 py-3 rounded-full"
+              type="text"
+              placeholder="Email*"
+            />
+            <textarea
+              name="message"
+              class="md:col-span-2 px-12 py-3 rounded-2xl h-64 resize-none"
+              placeholder="Write your message here"
+            ></textarea>
+            <p
+              class="md:col-span-2 text-red-500 font-bold w-full text-center mx-auto my-1"
+              id="statusFail"
+            ></p>
+            <p
+              class="md:col-span-2 text-green-500 font-bold w-full text-center mx-auto my-1"
+              id="statusSuccess"
+            ></p>
 
+            <button
+              type="submit"
+              class="bg-gradient-to-l from-cyan-100 to-blue-400 px-5 py-2 border border-slate-300 rounded-full font-semibold md:col-span-2"
+            >
+              Send Mail
+              <i
+                class="ml-4 -rotate-45 p-2 rounded-full text-black fa-solid fa-arrow-right"
+              ></i>
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer class="footer bg-neutral text-neutral-content p-10">
-        <div class="container mx-auto md:flex md:justify-between items-center ">
-            <aside>
-                <a href=""><img class="w-52" src="./assets/logo-white.png" alt=""></a>
-
-            </aside>
-            <nav>
-                <h6 class="footer-title">Social</h6>
-                <div class="grid grid-flow-col gap-4">
-                    <a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            class="fill-current">
-                            <path
-                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
-                            </path>
-                        </svg>
-                    </a>
-                    <a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            class="fill-current">
-                            <path
-                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
-                            </path>
-                        </svg>
-                    </a>
-                    <!-- ! Facebok -->
-                    <a href="https://www.facebook.com/fahmid.hasan.3781">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            class="fill-current">
-                            <path
-                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
-                            </path>
-                        </svg>
-                    </a>
-
-                </div>
-            </nav>
-
-        </div>
-
-
+      <div class="container mx-auto md:flex md:justify-between items-center">
+        <aside>
+          <a href=""
+            ><img class="w-52" src="./assets/logo-white.png" alt=""
+          /></a>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Social</h6>
+          <div class="grid grid-flow-col gap-4">
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                ></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                ></path>
+              </svg>
+            </a>
+            <!-- ! Facebok -->
+            <a href="https://www.facebook.com/fahmid.hasan.3781">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
     </footer>
-<script src="./js/emailsend.js"></script>
-</body>
-
+    <script src="./js/emailsend.js"></script>
+  </body>
 </html>
